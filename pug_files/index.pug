@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Bicycle
+        // Font-Awesome
+        link(rel="stylesheet", href="css/all.min.css")
+        // Font_type_used[Lato]
+        link(href="https://fonts.googleapis.com/css?family=Lato&display=swap", rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Lobster&display=swap", 
+        rel="stylesheet")
+        //owl_carousel
+        link(rel="stylesheet", href="css/owl.carousel.css")
+        link(rel="stylesheet", href="css/owl.theme.css")
+        // our_style
+        link(rel="stylesheet", href="css/style.css")
+    body#home
+        // Go_to_top
+        .scroll_top
+          i(class="far fa-arrow-alt-circle-up")
+        // start Header
+        header.text-center
+          // navbar
+          nav
+            div(class="container")
+              ul.active
+                .right_nav
+                  li: a(href="#", class="uppercase active", data-value="home") home
+                  li: a(href="#", class="uppercase", data-value="about") about us
+                  li: a(href="#", class="uppercase", data-value="work") work
+                li.logo: img(src="imgs/logo.png")
+                .left_nav
+                  li: a(href="#", class="uppercase", data-value="testimonials") testimonial
+                  li: a(href="#", class="uppercase", data-value="shop") shop
+                  li: a(href="#", class="uppercase", data-value="contact") contact
+                .clearfix
+              // ### navbar
+            // ###container
+        // ### header
+
+
+        // about_us
+        div(class="about_us text-center" id="about")
+          .container
+            img(src="imgs/about.png")
+            h3 A NEW GENERATION OF VINTAGE BIKE
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, neque officiis? Assumenda ad facilis tenetur, nemo ratione excepturi, quibusdam explicabo iure provident vero delectus quo maxime, dicta veritatis quidem consectetur. Assumenda ad facilis tenetur, nemo ratione excepturi, quibusdam explicabo iure provident vero delectus quo maxime, dicta veritatis quidem 
+          // ###container
+        // ###about_us
+        // Work 
+
+
+        div.work#work
+          // first_row 
+          div(class="row f_row")
+            div(class="sec-left")
+              img(src="imgs/work/frow.png")
+              img(src="imgs/work/icon2.png", class="icon")
+            div(class="sec-right text-center")
+              div(class="right_top text-center")
+                img(src="imgs/work/icon5.png")
+                h4.uppercase vintage Oliva
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sit consectetur sunt tempora magni totam mollitia quidem facere illo, ea nemo a sint rem. Qui at quasi esse deleniti totam.
+              div(class="right_bottom")
+                img(src="imgs/work/work2.png")
+            .clearfix
+          // #### First_row
+          // second_row 
+          div(class="row s_row")
+            div(class="sec-left")
+              div(class="left_top text-center")
+                img(src="imgs/work/icon1.png")
+                h4.uppercase la boriosa
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sit consectetur sunt tempora magni totam mollitia quidem facere illo, ea nemo a sint rem. Qui at quasi esse deleniti totam.
+              div(class="left_bottom")
+                img(src="imgs/work/srow.png")
+            div(class="sec-right text-center")
+              img(src="imgs/work/work3.png")
+              img(src="imgs/work/icon6.png", class="icon")
+            .clearfix
+          // #### Second_row
+          // Third_row 
+          div(class="row t_row text-center")
+            .sec_left
+              img(src="imgs/work/row3.png")
+              img(src="imgs/work/icon3.png", class="logo")
+            .sec_middle
+              .mid_top
+                img(src="imgs/work/icon4.png")
+                h4 retrò Bike - M. Hulot
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias quibusdam quae? Voluptatum culpa facere consectetur rem fugiat maiores quasi libero reiciendis cumque dolores, voluptatibus voluptatem sapiente tempora veritatis eos!
+              .mid_bottom
+                img(src="imgs/work/midrow.png")
+            .sec_right
+              img(src="imgs/work/trrow.png")
+            .clearfix
+          // #### Third_row
+        // ### work 
+
+
+        // testimonials
+        div(class="testimonials" id="testimonials")
+          div(class="container text-center" id="owl_carousel")
+            .item
+              i(class="fab fa-twitter fa-3x")
+              h3.capitalize AOD New York  @aod #[span /  35 min]
+              p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quibusdam earum ab soluta commodi, illum cupiditate iure in! Nulla corrupti error porro itaque debitis quibusdam aut libero eos magni modi.
+            .item
+              i(class="fab fa-twitter fa-3x")
+              h3.capitalize AOD New York  @aod #[span /  35 min]
+              p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quibusdam earum ab soluta commodi, illum cupiditate iure in! Nulla corrupti error porro itaque debitis quibusdam aut libero eos magni modi.
+            .item
+              i(class="fab fa-twitter fa-3x")
+              h3.capitalize AOD New York  @aod #[span /  35 min]
+              p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quibusdam earum ab soluta commodi, illum cupiditate iure in! Nulla corrupti error porro itaque debitis quibusdam aut libero eos magni modi.
+        // ### testimonials
+
+
+        // shop 
+        .shop#shop
+            div(class="row shop_row_one")
+              .left_shop
+                .left_top
+                  .left_top_left
+                    img(src="imgs/shop/pic1.jpg")
+                    .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                  .left_top_right
+                    img(src="imgs/shop/pic2.jpg")
+                    .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                  .clearfix
+                .left_bottom
+                  img(src="imgs/shop/pic3.jpg")
+                  .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+              // left_shop
+              .middle_shop
+                .mid_left
+                  img(src="imgs/shop/pic4.jpg")
+                  .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                .mid_right
+                  img(src="imgs/shop/pic5.jpg")
+                  .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                .clearfix
+              // middle_shop
+              .right_shop
+                .right_top
+                  img(src="imgs/shop/pic6.png")
+                  .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                .right_bottom
+                  .right_bottom_left
+                    img(src="imgs/shop/pic7.jpg")
+                    .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                  .right_bottom_right
+                    img(src="imgs/shop/pic8.png")
+                    .overlay
+                      img(src="imgs/shop/icon.png")
+                      p.uppercase shop now
+                  .clearfix
+              // right_shop
+              .clearfix
+        //### shop 
+
+        // Discover_jop
+        div(class="discover_shop text-center", id="discover")
+          button(class="btn_discover uppercase") discover the shop
+        // ### discover_shop
+
+        // contact
+        div(class="contact text-center" id="contact")
+          .container
+            div(class="contact_logo")
+              img(src="imgs/logo.png")
+            // ### contact_logo
+            h3 stay on the saddle!
+            form(class="contact_form")
+              input(type="text", placeholder="enter your email...")
+              // ###form-group 
+              button(type="button", class="uppercase") go
+          // ## container 
+        // ### contact 
+
+        // Footer
+        div(class="footer text-center", id="footer")
+          .container
+            div(class="row footer_row")
+              div(class="footer_left")
+                h4 AOD New York
+                p 2250 Lexington Avenue 
+                p New York, NY 10035  - info@domain.com
+              // ## footer_left 
+              div(class="footer_middle")
+                a(href="#",id="first"): i(class="fab fa-twitter")
+                a(href="#",id="second"): i(class="fab fa-facebook-f")
+                a(href="#",id="third"): i(class="fab fa-google-plus-g")
+              // ## footer_middle 
+              div(class="footer_right")
+                p.capitalize designed by #[strong.capitalize  ahmed zaher]
+              .clearfix
+              // ## footer_right
+            // ### footer_row
+          // ## container
+        // footer
+        // ### The_End 
+        // jquery_file
+        script(src="js/jquery-1.12.0.min.js")
+        // Owl_carousel_JS_file
+        script(src="js/owl.carousel.min.js")
+        // our_scripts
+        script(src="js/plugins.js")
